@@ -1,0 +1,91 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #fcf9f9;
+}
+
+header {
+   background-color: #48e276;
+   color: rgb(21, 21, 66);
+   text-align: center;
+   padding: 20px 0;
+
+}
+
+nav {
+   background-color: #302e2e;
+   overflow: hidden;
+}
+
+nav a {
+   float: left;
+   display: block;
+   color: rgb(255, 255, 255);
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+
+}
+
+nav a:hover {
+   background-color: #706f6f;
+   color: black;
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 30px;
+
+}
+
+.producto {
+   background-color: rgb(218, 204, 78);
+   padding: 20px;
+   margin: 10px;
+   width: 20%;
+}
+
+.producto img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.producto button {
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   padding: 20px 30px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.producto button:hover {
+   background-color: darkred;
+}
+
+.producto button[onclick="alert('¡Producto añadido al carrito!')"] {
+   background-color: darkred;
+}
+
+footer {
+   background-color: #333;
+   color: whitesmoke;
+   padding: 20px;
+   text-align: center;
+}
+
+footer a {
+   color: lawngreen;
+   text-decoration: none;
+
+}
+
+footer a img {
+   width: 24px; /* Define el ancho del icono */
+   height: 24px; /* Define el alto del icono */
+   margin: 0 5px;   /* Añade un pequeño espacio a los lados */
+   vertical-align: middle; /* Alinea el icono verticalmente con el texto (los •) */
+}
